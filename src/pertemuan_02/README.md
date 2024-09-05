@@ -69,4 +69,4 @@ Control flow dan function sangat mirip dengan bahasa pemrograman lainnya seperti
 - Logical operators
 
 # Soal 4
-[Link Google Slide](https://google.com)
+[Link Google Slide](https://docs.google.com/presentation/d/1hNlgt5Z8poUFuVDshPuh-j6CIzDtJiQ5S67-QvIeH2U/edit?usp=sharing)
