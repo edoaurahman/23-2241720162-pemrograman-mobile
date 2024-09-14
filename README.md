@@ -14,3 +14,4 @@
 </table>
 
 1. <a href="src/pertemuan_02/">Pertemuan 2</a>
+1. <a href="src/pertemuan_03/">Pertemuan 3</a>
