@@ -1,8 +1,8 @@
-# Pemrograman Mobile - Pertemuan 2
+# Pemrograman Mobile - Pertemuan 3
 
 <table>
     <thead>
-        <th style="text-align: center;" colspan="2">Pertemuan 2</th>
+        <th style="text-align: center;" colspan="2">Pertemuan 3</th>
     </thead>
     <tbody>
         <tr>
