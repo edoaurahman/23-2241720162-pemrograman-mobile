@@ -34,6 +34,9 @@ Hasil:
 
 ![Repository Mobile](../../docs/pertemuan_05_3.png)
 
+![Repository Mobile](../../docs/pertemuan_05_8.png)
+
+
 # Praktikum 4: Menerapkan Widget Dasar
 
 **Langkah 1: Text Widget**
@@ -60,4 +63,22 @@ Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode
 
 **Langkah 2: Floating Action Button (FAB)**
 
-![alt](https://)
+![alt](../../docs/pertemuan_05_9.png)
+
+**Langkah 3: Scaffold Widget**
+
+![alt](../../docs/pertemuan_05_10.png)
+
+**Langkah 4: Dialog Widget**
+
+![alt](../../docs/pertemuan_05_11.png)
+
+**Langkah 5: Input dan Selection Widget**
+
+![alt](../../docs/pertemuan_05_12.png)
+
+**Langkah 6: Date and Time Pickers**
+
+![alt](../../docs/pertemuan_05_13.png)
+
+
