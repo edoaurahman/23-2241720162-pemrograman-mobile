@@ -14,5 +14,6 @@
 </table>
 
 1. <a href="src/pertemuan_02/">Pertemuan 2</a>
-1. <a href="src/pertemuan_03/">Pertemuan 3</a>
-1. <a href="src/pertemuan_04/">Pertemuan 4</a>
+2. <a href="src/pertemuan_03/">Pertemuan 3</a>
+3. <a href="src/pertemuan_04/">Pertemuan 4</a>
+4. <a href="src/pertemuan_05/">Pertemuan 5</a>
