@@ -19,15 +19,15 @@
 <details>
 <summary>
 
-# Praktikum 1: Mengunduh Data dari Web Service (API)
+## Praktikum 1: Mengunduh Data dari Web Service (API)
 </summary>
 
 
-## Langkah 1: Membuat Project Baru
+### Langkah 1: Membuat Project Baru
 
 Membuat project baru dengan nama `books` dan menambahkan dependencies `http`.
 
-## Langkah 2: Cek file pubspec.yaml
+### Langkah 2: Cek file pubspec.yaml
 
 Memastikan file `pubspec.yaml` sudah terdapat dependencies `http`.
 
@@ -37,7 +37,7 @@ Mengaktifkan internet karena menggunakan MacOS.
 
 ![alt](../../docs/pertemuan_11/2.png)
 
-## Langkah 3: Buka file main.dart
+### Langkah 3: Buka file main.dart
 
 ### Soal 1
 Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
@@ -79,29 +79,29 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 <details>
 <summary>
 
-# Praktikum 2: Menggunakan await/async untuk menghindari callbacks
+## Praktikum 2: Menggunakan await/async untuk menghindari callbacks
 </summary>
 
 
-## Langkah 1: Buka file main.dart
+### Langkah 1: Buka file main.dart
 
 Menambahkan tiga method di dalam class _FuturePageState.
 
 ![alt](../../docs/pertemuan_11/8.png)
 
-## Langkah 2: Tambah method count()
+### Langkah 2: Tambah method count()
 
 Menambahkan method `count()` untuk menghitung.
 
 ![alt](../../docs/pertemuan_11/9.png)
 
-## Langkah 3: Panggil count()
+### Langkah 3: Panggil count()
 
 Menambahkan kode untuk memanggil method `count()` pada ElevatedButton.
 
 ![alt](../../docs/pertemuan_11/10.png)
 
-## Langkah 4: Run
+### Langkah 4: Run
 
 Menjalankan aplikasi.
 
@@ -123,28 +123,28 @@ Kode langkah 1 adalah kode yang akan mengembalikan nilai 1,2,3 dengan delay 3 de
 <details>
 <summary>
 
-# Praktikum 3: Menggunakan Completer di Future
+## Praktikum 3: Menggunakan Completer di Future
 </summary>
 
-## Langkah 1: Buka main.dart
+### Langkah 1: Buka main.dart
 
 Melakukan import package async.
 
 ![alt](../../docs/pertemuan_11/13.png)
 
-## Langkah 2: Tambahkan variabel dan method
+### Langkah 2: Tambahkan variabel dan method
 
 Menambahkan variabel late dan method di class _FuturePageState.
 
 ![alt](../../docs/pertemuan_11/14.png)
 
-## Langkah 3: Ganti isi kode onPressed()
+### Langkah 3: Ganti isi kode onPressed()
 
 Mengganti isi kode onPressed() pada ElevatedButton.
 
 ![alt](../../docs/pertemuan_11/15.png)
 
-## Langkah 4: Run
+### Langkah 4: Run
 
 ## Soal 5
 
@@ -164,13 +164,13 @@ Mengembalikan `completer.future`, yaitu sebuah Future yang akan berisi nilai ket
 
 ![alt](../../docs/pertemuan_11/16.gif)
 
-## Langkah 5: Ganti method calculate()
+### Langkah 5: Ganti method calculate()
 
 Mengganti atau membuat calculate2().
 
 ![alt](../../docs/pertemuan_11/17.png)
 
-## Langkah 6: Pindah ke onPressed()
+### Langkah 6: Pindah ke onPressed()
 
 Mengganti isi kode onPressed() pada ElevatedButton.
 
@@ -194,22 +194,22 @@ Sedangkan kode langkah 5-6 menggunakan Completer dengan Future.delayed untuk men
 <details>
 <summary>
 
-# Praktikum 4: Memanggil Future secara paralel
+## Praktikum 4: Memanggil Future secara paralel
 </summary>
 
-## Langkah 1: Buka file main.dart
+### Langkah 1: Buka file main.dart
 
 Menambahkan method returnFG ke dalam class _FuturePageState.
 
 ![alt](../../docs/pertemuan_11/20.png)
 
-## Langkah 2: Edit onPressed()
+### Langkah 2: Edit onPressed()
 
 Mengedit kode onPressed() pada ElevatedButton.
 
 ![alt](../../docs/pertemuan_11/21.png)
 
-## Langkah 3: Run
+### Langkah 3: Run
 
 Hasilnya dalam 3 detik berupa angka 6 lebih cepat dibandingkan praktikum sebelumnya menunggu sampai 9 detik.
 
@@ -221,7 +221,7 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README
 
 ![alt](../../docs/pertemuan_11/22.gif)
 
-## Langkah 4: Ganti variabel futureGroup
+### Langkah 4: Ganti variabel futureGroup
 
 Mengganti variabel futureGroup dengan `Future.wait`.
 
@@ -242,22 +242,22 @@ Keduanya digunakan untuk menunggu beberapa Future selesai, tetapi FutureGroup me
 <details>
 <summary>
 
-# Praktikum 5: Menangani Respon Error pada Async Code
+## Praktikum 5: Menangani Respon Error pada Async Code
 </summary>
 
-## Langkah 1: Buka file main.dart
+### Langkah 1: Buka file main.dart
 
 Menambahkan method `returnError` ke dalam class _FuturePageState.
 
 ![alt](../../docs/pertemuan_11/24.png)
 
-## Langkah 2: ElevatedButton
+### Langkah 2: ElevatedButton
 
 Ubah kode onPressed() pada ElevatedButton.
 
 ![alt](../../docs/pertemuan_11/25.png)
 
-## Langkah 3: Run
+### Langkah 3: Run
 
 Menjalankan aplikasi.
 
@@ -273,7 +273,7 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 
 ![alt](../../docs/pertemuan_11/27.gif)
 
-## Langkah 4: Tambah method handleError()
+### Langkah 4: Tambah method handleError()
 
 Menambahkan method `handleError` ke dalam class _FuturePageState.
 
@@ -292,32 +292,32 @@ Hasilnya akan menampilkan `complete` pada console. Perbedaan kode langkah 1 dan 
 <details>
 <summary>
 
-# Praktikum 6: Menggunakan Future dengan StatefulWidget
+## Praktikum 6: Menggunakan Future dengan StatefulWidget
 </summary>
 
-## Langkah 1: install plugin geolocator
+### Langkah 1: install plugin geolocator
 
 Menambahkan dependencies geolocator.
 
 ![alt](../../docs/pertemuan_11/29.png)
 
-## Langkah 2: Tambah permission GPS
+### Langkah 2: Tambah permission GPS
 
 Menambahkan permission GPS.
 
 ![alt](../../docs/pertemuan_11/30.png)
 
-## Langkah 3: Buat file geolocation.dart
+### Langkah 3: Buat file geolocation.dart
 
 Membuat file geolocation.dart.
 
-## Langkah 4: Buat StatefulWidget
+### Langkah 4: Buat StatefulWidget
 
 Buat class LocationScreen di dalam file geolocation.dart.
 
 ![alt](../../docs/pertemuan_11/31.png)
 
-## Langkah 5: Isi kode geolocation.dart
+### Langkah 5: Isi kode geolocation.dart
 
 Isi kode di dalam class LocationScreen.
 
@@ -330,19 +330,19 @@ Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerja
 
 ![alt](../../docs/pertemuan_11/33.png)
 
-## Langkah 6: Edit main.dart
+### Langkah 6: Edit main.dart
 
 Panggil screen baru tersebut di file main.dart.
 
 ![alt](../../docs/pertemuan_11/34.png)
 
-## Langkah 7: Run
+### Langkah 7: Run
 
 Menjalankan aplikasi.
 
 ![alt](../../docs/pertemuan_11/35.png)
 
-## Langkah 8: Tambahkan animasi loading
+### Langkah 8: Tambahkan animasi loading
 
 Menambahkan animasi loading.
 
@@ -377,28 +377,28 @@ Hasil run di device.
 
 <summary>
 
-# Praktikum 7: Manajemen Future dengan FutureBuilder
+## Praktikum 7: Manajemen Future dengan FutureBuilder
 </summary>
 
-## Langkah 1: Modifikasi method getPosition()
+### Langkah 1: Modifikasi method getPosition()
 
 Menambahkan kode `await Future.delayed(const Duration(seconds: 3));` pada method getPosition().
 
 ![alt](../../docs/pertemuan_11/41.png)
 
-## Langkah 2: Tambah variabel
+### Langkah 2: Tambah variabel
 
 Menambahkan variabel position di class _LocationScreenState.
 
 ![alt](../../docs/pertemuan_11/42.png)
 
-## Langkah 3: Tambah initState()
+### Langkah 3: Tambah initState()
 
 Set variabel position pada initState().
 
 ![alt](../../docs/pertemuan_11/43.png)
 
-## Langkah 4: Edit method build()
+### Langkah 4: Edit method build()
 
 Mengedit method build().
 
@@ -416,7 +416,7 @@ Tidak, tidak ada perbedaan UI dengan praktikum sebelumnya. Hal ini dikarenakan m
 
 ![alt](../../docs/pertemuan_11/45.gif)
 
-## Langkah 5: Tambah handling error
+### Langkah 5: Tambah handling error
 
 Menambahkan handling error.
 
@@ -438,16 +438,16 @@ Tidak, tidak ada perbedaan UI dengan langkah sebelumnya. Hal ini dikarenakan men
 <details>
 <summary>
 
-# Praktikum 8: Navigation route dengan Future Function
+## Praktikum 8: Navigation route dengan Future Function
 </summary>
 
-## Langkah 1: Buat file baru navigation_first.dart
+### Langkah 1: Buat file baru navigation_first.dart
 
 Membuat file navigation_first.dart.
 
 ![alt](../../docs/pertemuan_11/48.png)
 
-## Langkah 2: Isi kode navigation_first.dart
+### Langkah 2: Isi kode navigation_first.dart
 
 Isi kode di dalam class NavigationFirstScreen.
 
@@ -464,29 +464,29 @@ Mengubah title dengan nama panggilan dan mengubah warna tema menjadi warna orany
 
 ![alt](../../docs/pertemuan_11/50.png)
 
-## Langkah 3: Tambah method di class _NavigationFirstState
+### Langkah 3: Tambah method di class _NavigationFirstState
 
 Menambahkan method `_navigateAndGetColor` di dalam class _NavigationFirstState.
 
 ![alt](../../docs/pertemuan_11/51.png)
 
-## Langkah 4: Buat file baru navigation_second.dart
+### Langkah 4: Buat file baru navigation_second.dart
 
 Membuat file navigation_second.dart.
 
-## Langkah 5: Buat class NavigationSecond dengan StatefulWidget
+### Langkah 5: Buat class NavigationSecond dengan StatefulWidget
 
 Membuat class NavigationSecond dengan StatefulWidget.
 
 ![alt](../../docs/pertemuan_11/52.png)
 
-## Langkah 6: Edit main.dart
+### Langkah 6: Edit main.dart
 
 Lakukan edit properti home.
 
 ![alt](../../docs/pertemuan_11/53.png)
 
-## Langkah 7: Run
+### Langkah 7: Run
 
 Menjalankan aplikasi.
 
@@ -510,38 +510,38 @@ Hasil run aplikasi.
 
 <summary>
 
-# Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+## Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
 </summary>
 
-## Langkah 1: Buat file baru navigation_dialog.dart
+### Langkah 1: Buat file baru navigation_dialog.dart
 
 Membuat file navigation_dialog.dart.
 
-## Langkah 2: Isi kode navigation_dialog.dart
+### Langkah 2: Isi kode navigation_dialog.dart
 
 menambahkan kode di dalam class NavigationDialogScreen.
 
 ![alt](../../docs/pertemuan_11/55.png)
 
-## Langkah 3: Tambah method async
+### Langkah 3: Tambah method async
 
 Menambahkan method `_showColorDialog` dengan async.
 
 ![alt](../../docs/pertemuan_11/56.png)
 
-## Langkah 4: Panggil method di ElevatedButton
+### Langkah 4: Panggil method di ElevatedButton
 
 Panggil method `_showColorDialog` di ElevatedButton.
 
 ![alt](../../docs/pertemuan_11/57.png)
 
-## Langkah 5: Edit main.dart
+### Langkah 5: Edit main.dart
 
 Lakukan edit properti home.
 
 ![alt](../../docs/pertemuan_11/58.png)
 
-## Langkah 6: Run
+### Langkah 6: Run
 
 Menjalankan aplikasi.
 
